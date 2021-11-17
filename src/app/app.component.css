@@ -1,0 +1,17 @@
+.buttons {
+    display: flex;
+}
+
+#aumentar {
+    margin-right: 1rem;
+}
+
+.cantidad {
+    margin-bottom: 2rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 2rem 1rem;
+}

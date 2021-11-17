@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'aumentar-reducir';
+  public cantidad: number = 0;
+
+  public aumentar() {
+    this.cantidad = this.cantidad + 100;
+  }
+
+  public reducir() {
+    this.cantidad = this.cantidad - 100;
+  }
 }
