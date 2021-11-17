@@ -1,5 +1,7 @@
 # AumentarReducir
 
+App para aumentar y reducir una cantidad, válida únicamente para demostrar flujo de trabajo con marco de trabajo Scrum y Kanban board.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
 ## Development server
