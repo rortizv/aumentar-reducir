@@ -5,11 +5,10 @@
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
+    "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "lite": "lite-server",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --prod",
+    "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript"
   },
   "private": true,
   "dependencies": {
@@ -43,6 +42,6 @@
   },
   "engines": {
     "node": "14.18.0",
-      "npm": "8.1.0"
+    "npm": "8.1.0"
   }
 }
